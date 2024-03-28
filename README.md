@@ -16,13 +16,12 @@ git commit -m "Descrição das alterações que estão sendo commitados"
     - Grava as alterações feitas na área de stage (pronto para ser commitado) como uma nova versão do código.
 
 git log
+git log --all
     - ver histórico de commits.
-
------------------------------------------------------------------------------------------------------
-*** PARAMENTROS ***
-HEAD: É um seletor que indica qual é o commit/branch/ramificação nós estamos trabalhando no momento
 
 git checkout <numero* (hexadecimal) do commit que deseja ir> ou <master> (branch conhecida)
     - Navegando entre os commits
 
-git log --all
+-----------------------------------------------------------------------------------------------------
+*** PARAMENTROS ***
+HEAD: É um seletor que indica qual é o commit/branch/ramificação nós estamos trabalhando no momento

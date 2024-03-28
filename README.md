@@ -1,3 +1,4 @@
+*** COMANDOS GIT ***
 git init
     - Inicializa um versionamento na pasta/repositorio/projeto
     - Inicia um novo repositório Git local na pasta atual.
@@ -16,3 +17,12 @@ git commit -m "Descrição das alterações que estão sendo commitados"
 
 git log
     - ver histórico de commits.
+
+-----------------------------------------------------------------------------------------------------
+*** PARAMENTROS ***
+HEAD: É um seletor que indica qual é o commit/branch/ramificação nós estamos trabalhando no momento
+
+git checkout <numero* (hexadecimal) do commit que deseja ir> ou <master> (branch conhecida)
+    - Navegando entre os commits
+
+git log --all

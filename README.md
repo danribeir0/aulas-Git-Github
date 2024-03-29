@@ -1,4 +1,5 @@
 *** COMANDOS GIT ***
+
 git init
     - Inicializa um versionamento na pasta/repositorio/projeto
     - Inicia um novo repositório Git local na pasta atual.
